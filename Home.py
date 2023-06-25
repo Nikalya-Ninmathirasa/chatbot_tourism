@@ -176,8 +176,8 @@ if tab4.button('Save data and create index'):
         st.session_state.query_engine = query_engine
 
 tab4.write("Chat Bot")
-ques = tab4.text_input("Ask question")
-ask = tab4.button("submit answer")
+ques = tab4.text_input("Ask Question")
+ask = tab4.button("Submit Question")
 
 if ask:
     response = st.session_state.query_engine.query(ques)
