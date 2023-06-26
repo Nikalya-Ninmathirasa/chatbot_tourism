@@ -2,7 +2,6 @@ import streamlit as st
 from pytrends.request import TrendReq
 import pandas as pd
 from textblob import TextBlob
-import openai
 import os
 
 from llama_index import (
