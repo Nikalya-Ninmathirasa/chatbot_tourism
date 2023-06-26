@@ -13,7 +13,7 @@ from langchain import OpenAI
 from llama_index.retrievers import VectorIndexRetriever
 from llama_index.query_engine import RetrieverQueryEngine
 
-
+openai.api_key = os.getenv("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")
 
 """ function is used to configure the settings of a Streamlit page. The function takes a number of arguments, 
 including the page title, the page icon, the layout, and the initial sidebar state.
