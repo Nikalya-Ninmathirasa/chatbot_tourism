@@ -9,7 +9,6 @@ from llama_index import (
     QuestionAnswerPrompt, LLMPredictor, ServiceContext
 )
 import json
-import openai
 from langchain import OpenAI
 from llama_index.retrievers import VectorIndexRetriever
 from llama_index.query_engine import RetrieverQueryEngine
