@@ -13,7 +13,7 @@ from langchain import OpenAI
 from llama_index.retrievers import VectorIndexRetriever
 from llama_index.query_engine import RetrieverQueryEngine
 
-api_key = os.getenv("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")
+openai.api_key = os.getenv("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")
 
 
 
