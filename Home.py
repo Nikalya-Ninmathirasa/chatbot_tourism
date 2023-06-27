@@ -3,7 +3,7 @@ from pytrends.request import TrendReq
 import pandas as pd
 from textblob import TextBlob
 import os
-import openai
+
 from llama_index import (
     GPTVectorStoreIndex, Document, SimpleDirectoryReader,
     QuestionAnswerPrompt, LLMPredictor, ServiceContext
@@ -14,7 +14,7 @@ from llama_index.retrievers import VectorIndexRetriever
 from llama_index.query_engine import RetrieverQueryEngine
 
 api_key = os.getenv("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")
-openai.api_key = api_key
+
 
 
 
